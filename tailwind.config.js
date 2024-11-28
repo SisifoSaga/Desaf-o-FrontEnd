@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -6,7 +5,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
+      colors: {
         'SoftOrange': 'hsl(35, 77%, 62%)',
         'SoftRed': 'hsl(5, 85%, 63%)',
         'OffWhite': 'hsl(36, 100%, 99%)',
@@ -17,11 +16,10 @@ export default {
       fontFamily: {
         'Inter': ['Inter', 'sans-serif']
       },
-      screens:{
+      screens: {
         '1xl': '1440px'
       }
     },
   },
   plugins: [],
 }
-
